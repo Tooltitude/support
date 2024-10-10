@@ -103,7 +103,10 @@ Features with ⭐ require a subscription. Features may have limitations. Softwar
   - ⭐ Move declaration (between packages)
   - Change signature (for private functions, and non interface methods)
   - ⭐ Change signature (for public functions, and non interface methods)
-  - Navigation from protobuf files to generated elements for messages, services, and enums
+  - Protobuf support
+    - Navigation from protobuf files to generated elements for messages, services, and enums
+    - ⭐ Go reference counts for messages, enums, and client calls counts for rpc methods in protobuf files
+    - ⭐ Go implementation counts for gRPC server implementations of services, and rpc methods
 - Helpers
   - ⭐ Automatic update of imports on folder moves and renames
   - ⭐ Automatic update of references on file moves
